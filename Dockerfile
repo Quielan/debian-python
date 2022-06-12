@@ -27,3 +27,6 @@ WORKDIR /
 RUN ln -s /usr/local/bin/pip3 /usr/local/bin/pip
 # Linking python3 to python
 RUN ln -s /usr/local/bin/python3 /usr/local/bin/python
+
+# Delete Source
+RUN rm -rf /usr/src/python
