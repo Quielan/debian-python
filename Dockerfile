@@ -1,6 +1,6 @@
 FROM debian:latest
 
-ARG pyver=3.10.1
+ARG pyver=3.10.5
 
 # Updating and installing required packages
 WORKDIR /
